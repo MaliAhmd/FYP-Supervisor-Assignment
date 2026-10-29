@@ -1,0 +1,66 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Google & OAuth Tokens / Credentials
+tokens/
+client_secret*.json
+credentials*.json
+gmail-*.json
+sheets*.json
+*.pem
+*.key
+*.pfx
+
+# Local Database & Lock Files
+data/
+*.sqlite
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+*.lock
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+
+# Build Artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
